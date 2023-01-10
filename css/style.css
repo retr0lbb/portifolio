@@ -3,9 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
 h1{
-    font-family: 'Comfortaa', cursive;
     font-size: 50px;
     font-style: normal;
     color: white;
@@ -20,33 +21,39 @@ body{
 
 }
 .portrail{
-    width: 50%;
     height: 100%;
-    background-color: #0D0D0D;
+
 }
 .esq{
     width: 55%;
+    display: flex;
+    flex-direction: column;
     justify-content: baseline;
     align-items: baseline;
+    background-image: linear-gradient(45deg, #F27405,#F28705,#F29F05,#F2B705);
+
 }
 .title{
     width: fit-content;
     height: fit-content;
-    border: 2px solid black;
+    background-color: #0D0D0D;
+    border: 2px solid #0D0D0D;
     padding: 20px;
-    margin-top: 40px;
-    margin-left: 80px;
     color: white;
+    margin: 0 auto;
+    margin-top: 140px;
+
 }
 .text{
-    margin-left: 80px;
-    margin-top: 5em;
-    padding:10px;
+    margin-top: 20px;
+    display: grid;
+    place-self: center;
     
 }
 #texti{
     font-size: 30px;
     color: white;
+    font-family: 'Latin';
 }
 strong{
     font-size: 70px;
@@ -57,8 +64,7 @@ strong{
     justify-content: center;
     width: 45%;
 
-    background-image: linear-gradient(45deg, #F27405,#F28705,#F29F05,#F2B705);
-
+    background-color: #0D0D0D;
 
 }
 
