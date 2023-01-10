@@ -7,6 +7,8 @@
 h1{
     font-family: 'Comfortaa', cursive;
     font-size: 50px;
+    font-style: normal;
+    color: white;
 }
 
 body{
@@ -20,7 +22,7 @@ body{
 .portrail{
     width: 50%;
     height: 100%;
-    background-color: black;
+    background-color: #0D0D0D;
 }
 .esq{
     width: 55%;
@@ -30,8 +32,24 @@ body{
 .title{
     width: fit-content;
     height: fit-content;
-    background-color: red;
-    border: 2px solid white;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 80px;
+    color: white;
+}
+.text{
+    margin-left: 80px;
+    margin-top: 5em;
+    padding:10px;
+    
+}
+#texti{
+    font-size: 30px;
+    color: white;
+}
+strong{
+    font-size: 70px;
 }
 .dir{
     display: flex;
@@ -65,6 +83,7 @@ body{
     align-items: center;
     color:white;
     flex-direction: column;
+    cursor: pointer;
 }
 .item:hover{
     
