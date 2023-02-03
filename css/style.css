@@ -40,6 +40,16 @@ main{
     margin-left: 32px;
 }
 
+.nav-list:hover > :not(:hover){
+    opacity: 0.4;
+    transform: scale(0.9);
+}
+
+.nav-item {
+    transition: .35s;
+    cursor: pointer;
+}
+
 .mobile-menu{
     display: none;
     cursor: pointer;
