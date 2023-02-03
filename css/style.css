@@ -64,6 +64,32 @@ main{
     transition: 0.3s;
 }
 
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img{
+    width: 400px;
+    height: 400px;
+    background: url(../imgs/th.jpg) no-repeat center center;
+    background-size: cover;
+
+}
+#contract-btn{
+    padding: 50px;
+}
+.text-container{
+    height: 500px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 20vh;
+}
+
 @media (max-width: 999px){
     body{
         overflow-x: hidden;
