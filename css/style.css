@@ -1,6 +1,7 @@
 :root{
     --text-color: #73e0fe;
     --bg-color: #13131e;
+    --main-color: #262f2f;
 }
 
 *{
@@ -35,7 +36,6 @@ nav{
     list-style: none;
     display: flex;
     gap: 32px;
-    height: 100%;
     justify-content: center;
     align-items: center;
 }
@@ -91,7 +91,7 @@ main{
     margin:0px 5px 0px 5px;
     width: 60vh;
     height: 60vh;
-    background: url() no-repeat center center;
+    background: url('../imgs/harry-maguire-10.png') no-repeat center center;
     background-size: cover;
 
 }
@@ -121,6 +121,13 @@ main{
     gap: 20vh;
 }
 
+/*SObre*/
+
+.sobre{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--main-color)
+}
 
 /* Media Querry*/
 @media (max-width: 999px){
