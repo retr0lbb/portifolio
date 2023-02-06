@@ -1,5 +1,5 @@
 :root{
-    --text-color: #73e0fe;
+    --text-color: #aefeee;
     --bg-color: #13131e;
     --main-color: #262f2f;
 }
@@ -101,9 +101,9 @@ main{
     margin:0px 5px 0px 5px;
     width: 60vh;
     height: 60vh;
-    background: url('../imgs/harry-maguire-10.png') no-repeat center center;
+    /*background: url('../imgs/harry-maguire-10.png') no-repeat center center;
     background-size: cover;
-
+*/
 }
 #contract-btn{
     background-color: var(--bg-color);
@@ -143,8 +143,10 @@ main{
 }
 .img-about{
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     background-color: blue;
+    /*background: url('../imgs/wp8113328.jpg') no-repeat center center;
+    background-size: cover;*/
 }
 .text-about{
     display: grid;
