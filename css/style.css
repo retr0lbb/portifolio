@@ -63,6 +63,7 @@ nav{
 .nav-list:hover > :not(:hover){
     opacity: 0.4;
     transform: scale(0.9);
+    box-shadow: none;
 }
 .nav-list:hover{
     text-shadow: 5px 5px 2px var(--contrast-text-color);
